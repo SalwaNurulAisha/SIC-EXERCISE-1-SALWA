@@ -166,3 +166,52 @@ p {
     margin-bottom:1em;
     color: #cf6752;
 }
+
+@media screen and (max-width: 990.95px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+    }
+
+    .works-list {
+        display: block;
+        align-content: center;
+    }      
+
+    .works-img {
+        display: block;
+        align-content: center;
+    }
+
+    .works-img p {
+        display: block;
+        text-align: center;
+    }
+
+    .my-hobby {
+        display: block;
+    }
+}
